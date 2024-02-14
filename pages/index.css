@@ -117,9 +117,9 @@ html {
   padding-left: 80px;
 }
 
-.hours__header,
-.hours__time_weekdays,
-.hours__time_weekends {
+.header__footer-hours,
+.hours__footer-weekdays,
+.hours__footer-weekends {
   display: block;
 }
 
