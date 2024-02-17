@@ -13,7 +13,7 @@
 
 .header__span-accent {
   display: block;
-  font-family: "Noto Serif", "Times New Roman", Times, serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-size: 60px;
   line-height: 72px;
@@ -48,18 +48,18 @@
   max-width: 683px;
   margin: 0;
   padding-left: 80px;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif" "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
 }
 
 .header__footer {
   margin: 0;
-  margin-top: auto;
   display: flex;
   justify-content: space-between;
-  padding-top: 0px;
-  padding-bottom: 40px;
+  align-items: flex-end;
+  margin-top: auto;
+  padding: 0 80px 40px;
   color: #6f6f6f;
 }
 
@@ -69,13 +69,7 @@
   align-self: flex-end;
 }
 
-.header__hours {
+.header__paragraph {
   margin: 0;
-  padding-left: 80px;
-}
-
-.header__footer-hours,
-.hours__footer-weekdays,
-.hours__footer-weekends {
   display: block;
 }
