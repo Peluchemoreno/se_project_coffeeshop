@@ -25,4 +25,9 @@
   margin-left: 20px;
   font-weight: 500;
   line-height: 20px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
 }
