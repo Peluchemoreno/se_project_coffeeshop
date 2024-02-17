@@ -61,6 +61,8 @@
   margin-top: auto;
   padding: 0 80px 40px;
   color: #6f6f6f;
+  position: relative;
+  z-index: 2;
 }
 
 .header__address {
